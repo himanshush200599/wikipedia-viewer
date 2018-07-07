@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400&subset=greek-ext');
+body{
+  padding:0px;
+  margin:0px;
+  background-color:#e0e0d1;
+  font-family: 'Indie Flower', cursive;
+}
+
+.heading{
+  margin-top:12px;
+  color: #1f7a7a;
+  text-shadow:2px 2px 1px  #1f7a7a;
+  font-weight:500;
+
+}
+.searchBox{
+  border-radius:60px;
+  padding:10px;
+  font-size:22px;
+
+}
+@media (min-width: 992px) and (max-width : 1200px){
+  .searchBox{
+    width:70%;
+    margin:auto;
+  }
+  .card-block{
+    margin:auto;
+      margin-left:200px;
+  }
+}
+a {
+  text-decoration: none;
+
+
+}
+.card-block{
+  border:1px solid #5c523d;
+  font-family:Roboto !important ;
+  padding:30px ;
+  border-radius:60px;
+
+
+}
